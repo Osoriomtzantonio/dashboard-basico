@@ -50,7 +50,7 @@ export class App {
       id: 6,
       nombre: 'WebCam Logitech C920',
       precio: 79.99,
-      imagen: 'https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=400',
+      imagen: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400',
       enOferta: false
     }
   ];
