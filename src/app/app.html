@@ -1,0 +1,15 @@
+<div class="dashboard">
+  <header class="dashboard-header">
+    <h1>Dashboard de Productos</h1>
+    <p>Catálogo de productos con ofertas especiales</p>
+  </header>
+
+  <div class="productos-grid">
+    <app-card-producto
+      *ngFor="let producto of productos"
+      [producto]="producto">
+    </app-card-producto>
+  </div>
+</div>
+
+

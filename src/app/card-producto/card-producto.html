@@ -1,0 +1,10 @@
+<div class="card">
+  <div class="card-header">
+    <img [src]="producto.imagen" [alt]="producto.nombre" class="card-image">
+    <span *ngIf="producto.enOferta" class="badge-oferta">¡OFERTA!</span>
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">{{ producto.nombre }}</h3>
+    <p class="card-price">{{ producto.precio | currency:'USD':'symbol':'1.2-2' }}</p>
+  </div>
+</div>
